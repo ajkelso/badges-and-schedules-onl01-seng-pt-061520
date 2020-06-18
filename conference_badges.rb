@@ -4,4 +4,6 @@ end
 
 def batch_badge_creator(names)
   names.collect do |name| 
-    ""
+    badge_maker(name)
+  end
+end
