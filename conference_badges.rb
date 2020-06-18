@@ -13,7 +13,7 @@ def assign_rooms(speakers)
   "Hello, #{speaker}! You'll be assigned to room #{room + 1}!"  
   end
 end
-def printer(batch_badge_creator, assign_rooms)
-  puts batch_badge_creator
-  puts assign_rooms
+def printer(names)
+  puts batch_badge_creator(names)
+  puts assign_rooms(names)
 end
